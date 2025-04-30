@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/smalc/DataspellProjects/Obecity/mlruns/183653049610586798/745978a6eefb46adb307fb90f1be078f/artifacts
+end_time: 1745947473527
+entry_point_name: ''
+experiment_id: '183653049610586798'
+lifecycle_stage: active
+run_id: 745978a6eefb46adb307fb90f1be078f
+run_name: gifted-shoat-518
+run_uuid: 745978a6eefb46adb307fb90f1be078f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1745947462441
+status: 3
+tags: []
+user_id: smalc

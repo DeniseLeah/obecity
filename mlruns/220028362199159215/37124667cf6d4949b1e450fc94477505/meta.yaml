@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/smalc/DataspellProjects/Obecity/mlruns/220028362199159215/37124667cf6d4949b1e450fc94477505/artifacts
+end_time: 1745771505598
+entry_point_name: ''
+experiment_id: '220028362199159215'
+lifecycle_stage: active
+run_id: 37124667cf6d4949b1e450fc94477505
+run_name: glamorous-colt-666
+run_uuid: 37124667cf6d4949b1e450fc94477505
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1745771484018
+status: 4
+tags: []
+user_id: smalc

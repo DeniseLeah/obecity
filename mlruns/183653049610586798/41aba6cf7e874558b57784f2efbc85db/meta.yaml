@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/smalc/DataspellProjects/Obecity/mlruns/183653049610586798/41aba6cf7e874558b57784f2efbc85db/artifacts
+end_time: 1745947482836
+entry_point_name: ''
+experiment_id: '183653049610586798'
+lifecycle_stage: active
+run_id: 41aba6cf7e874558b57784f2efbc85db
+run_name: bedecked-gnat-850
+run_uuid: 41aba6cf7e874558b57784f2efbc85db
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1745947473625
+status: 4
+tags: []
+user_id: smalc

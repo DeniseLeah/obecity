@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/smalc/DataspellProjects/Obecity/mlruns/183653049610586798/abb9c13d9bbb41c6a1cc414e6cefb158/artifacts
+end_time: 1745771808520
+entry_point_name: ''
+experiment_id: '183653049610586798'
+lifecycle_stage: active
+run_id: abb9c13d9bbb41c6a1cc414e6cefb158
+run_name: loud-shad-870
+run_uuid: abb9c13d9bbb41c6a1cc414e6cefb158
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1745771798649
+status: 3
+tags: []
+user_id: smalc

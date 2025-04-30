@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/smalc/DataspellProjects/Obecity/mlruns/220028362199159215/c20e9857d4684a009b0cfdfba2152d42/artifacts
+end_time: 1745771579225
+entry_point_name: ''
+experiment_id: '220028362199159215'
+lifecycle_stage: active
+run_id: c20e9857d4684a009b0cfdfba2152d42
+run_name: loud-steed-965
+run_uuid: c20e9857d4684a009b0cfdfba2152d42
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1745771570836
+status: 4
+tags: []
+user_id: smalc

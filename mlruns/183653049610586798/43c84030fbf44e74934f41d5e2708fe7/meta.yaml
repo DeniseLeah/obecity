@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/smalc/DataspellProjects/Obecity/mlruns/183653049610586798/43c84030fbf44e74934f41d5e2708fe7/artifacts
+end_time: 1745947521876
+entry_point_name: ''
+experiment_id: '183653049610586798'
+lifecycle_stage: active
+run_id: 43c84030fbf44e74934f41d5e2708fe7
+run_name: kindly-loon-625
+run_uuid: 43c84030fbf44e74934f41d5e2708fe7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1745947509771
+status: 3
+tags: []
+user_id: smalc

@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/smalc/DataspellProjects/Obecity/mlruns/220028362199159215/529e5432c1204ad58045d202092e80f8/artifacts
+end_time: 1745947408089
+entry_point_name: ''
+experiment_id: '220028362199159215'
+lifecycle_stage: active
+run_id: 529e5432c1204ad58045d202092e80f8
+run_name: handsome-sheep-383
+run_uuid: 529e5432c1204ad58045d202092e80f8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1745947389836
+status: 4
+tags: []
+user_id: smalc
