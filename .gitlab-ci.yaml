@@ -1,0 +1,31 @@
+image: google/cloud-sdk:alpine
+
+services:
+  - docker:dind
+
+variables:
+  DOCKER_DRIVER: overlay2
+  REGISTRY_IMAGE: us-central1-docker.pkg.dev
+  REPOSITORY: obecity
+  SERVICE_NAME: api
+  VERSION: 0.1
+
+
+
+
+
+stages:
+  - build_deploy
+  # - build
+  # - deploy
+
+
+build_deploy:
+  stage: build_deploy
+  script:
+    - cp $GCP_KEY /tmp/keyfile.json
+    - gcloud auth activate-service-account --key-file=/tmp/keyfile.json
+    - gcloud config set project $PROJECT_ID
+    - gcloud builds submit --config=cloudbuild.yaml --substitutions=_REGISTRY_IMAGE=$REGISTRY_IMAGE,_REPOSITORY=$REPOSITORY,_SERVICE_NAME=$SERVICE_NAME,_VERSION=$VERSION .
+  only:
+    - main
