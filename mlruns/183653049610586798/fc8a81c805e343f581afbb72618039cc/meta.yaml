@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/smalc/DataspellProjects/Obecity/mlruns/183653049610586798/fc8a81c805e343f581afbb72618039cc/artifacts
+end_time: 1747155998900
+entry_point_name: ''
+experiment_id: '183653049610586798'
+lifecycle_stage: active
+run_id: fc8a81c805e343f581afbb72618039cc
+run_name: amazing-finch-479
+run_uuid: fc8a81c805e343f581afbb72618039cc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747155994018
+status: 3
+tags: []
+user_id: smalc

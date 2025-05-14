@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/smalc/DataspellProjects/Obecity/mlruns/220028362199159215/9982f4edd13240268a41507d478955d5/artifacts
+end_time: 1747155993609
+entry_point_name: ''
+experiment_id: '220028362199159215'
+lifecycle_stage: active
+run_id: 9982f4edd13240268a41507d478955d5
+run_name: bedecked-rat-763
+run_uuid: 9982f4edd13240268a41507d478955d5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747155983972
+status: 3
+tags: []
+user_id: smalc
