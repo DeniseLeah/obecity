@@ -17,19 +17,11 @@ spec: # defines the desired state for the deployment
         app: ui-__PROJECT_NAME__ # labels assigned to the pods created by this deployment (must match the selector labels)
         version: v1
     spec: # defines the specification for the pod template
-      volumes:
-        - name: ui-__PROJECT_NAME__
-          configMap:
-            name: ui-__PROJECT_NAME__ # specifies the ConfigMap to use for the volume
       containers: # lists the containers that will be running inside the pods
         - name: ui-__PROJECT_NAME__ # the name of the container
           image: __UI__VERSION__ # the Docker image used for this container
           ports:
             - containerPort: 8501 # specifies that port 80 should be exposed on the container
-          volumeMounts:
-            - name: ui-__PROJECT_NAME__
-              mountPath: /etc/nginx
-              readOnly: true
           resources:
             limits:
               cpu: 0.75
@@ -73,19 +65,11 @@ spec:
         app: api-__PROJECT_NAME__
         version: v1
     spec:
-      volumes:
-        - name: api-__PROJECT_NAME__
-          configMap:
-            name: api-__PROJECT_NAME__ # specifies the ConfigMap to use for the volume
       containers:
         - name: api-__PROJECT_NAME__
           image: __API__VERSION__
           ports:
             - containerPort: 8000
-          volumeMounts:
-            - name: api-__PROJECT_NAME__
-              mountPath: /etc/nginx
-              readOnly: true
           resources:
             limits:
               cpu: 0.75
