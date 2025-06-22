@@ -25,7 +25,7 @@ spec: # defines the desired state for the deployment
         - name: ui-__PROJECT_NAME__ # the name of the container
           image: __UI__VERSION__ # the Docker image used for this container
           ports:
-            - containerPort: 7860 # specifies that port 80 should be exposed on the container
+            - containerPort: 8501 # specifies that port 80 should be exposed on the container
           volumeMounts:
             - name: ui-__PROJECT_NAME__
               mountPath: /etc/nginx
@@ -46,13 +46,12 @@ metadata:
 spec:
   selector:
     app: ui-__PROJECT_NAME__
-  type: NodePort
+  type: LoadBalancer # specifies that this service should be exposed externally
   ports:
     - name: http
       port: 80 # port for external access to the service
-      targetPort: 7860
-      protocol: TCP
-      nodePort: 30850 # The range of valid ports is 30000-32767
+      targetPort: 8501 # port on the container that the service will forward traffic to
+
 
 
 ---
@@ -102,10 +101,9 @@ metadata:
 spec:
   selector:
     app: api-__PROJECT_NAME__
-  type: NodePort
+  type: LoadBalancer #its access type is LoadBalancer, which means it will be accessible from outside the cluster
   ports:
     - name: http
       port: 80 # port for external access to the service
       targetPort: 8000
-      protocol: TCP
-      nodePort: 30800 # The range of valid ports is 30000-32767
+---
